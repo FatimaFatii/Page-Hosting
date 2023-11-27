@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif ;
+}
+.container{
+  background-image: url(images/pexels-photo-2067430.jpeg);
+  opacity: 0.7;
+  width: auto;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 8%;
+  padding-right: 8%;
+  border: 2px solid rebeccapurple;
+  background-attachment: fixed;
+}
+.logo{
+  
+  width: 50px;
+  cursor: pointer;
+
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: 50px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color:white;
+  font-size: 13px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400px;
+}
+nav ul li a:hover{
+ color: black;
+ background-color: rgb(238, 194, 140);
+border-radius: 20px;
+padding:8px 8px 8px 8px;
+
+}
+
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+   flex-basis: 50%;
+}
+h1{
+  color:rgb(222, 219, 215);
+  font-size: 50px;
+}
+p{
+  color: rgb(228, 222, 214);
+  font-size: 20px;
+  line-height: 15px;
+}
+button{
+  width: 120px;
+  background-color: rgb(231, 222, 222);
+  color: rgb(173, 16, 16);
+  font-size: 12px;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 20px;
+
+}
+button:hover{
+  background-color:rgb(133, 100, 50) ;
+  color: rgb(27, 28, 23);
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 26px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(images/22.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.card1{
+  background-image: url(images/55.jpg);
+  color: rgb(234, 222, 222);
+}
+.card2{
+  background-image: url(images/11.jpg);
+  color: rgb(33, 31, 31);
+}
+.card3{
+  background-image: url(images/44.jpg);
+ color: black;
+} 
+.card4{
+  background-image: url(images/00.jpeg);
+  color: aliceblue;
+}
